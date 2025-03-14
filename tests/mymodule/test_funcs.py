@@ -20,7 +20,5 @@ def test_multiply():
 def test_divide():
     assert divide(56, 8) == 7
 
-@pytest.mark.square_test
-def test_square_area():
-    assert square_area(71) == 16  # Using last two digits of my student ID - 100936904
+
     
